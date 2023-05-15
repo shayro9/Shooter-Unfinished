@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e32ed0b65acb8488c2b0814aee81dd, type: 3}
+  m_Name: Test_wave
+  m_EditorClassIdentifier: 
+  mini_waves:
+  - mini_wave: {fileID: 7272056779076152885, guid: 597357922f147b945900f1689d03db67, type: 3}
+    time: 5
+  - mini_wave: {fileID: 7272056779076152885, guid: 3a1f53922fab20947adb4be5b956750d, type: 3}
+    time: 7

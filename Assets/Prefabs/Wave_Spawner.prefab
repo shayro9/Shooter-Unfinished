@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1623486215928544819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623486215928544817}
+  - component: {fileID: 1623486215928544816}
+  - component: {fileID: 2292767520337696032}
+  m_Layer: 0
+  m_Name: Wave_Spawner
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1623486215928544817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623486215928544819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1623486215928544816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623486215928544819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e6fe185f2e3664689ae73b7f1b62e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - {fileID: 11400000, guid: 53239c81d1153dd42a11d63d1224bdf0, type: 2}
+  - {fileID: 11400000, guid: 53239c81d1153dd42a11d63d1224bdf0, type: 2}
+  timer: 0
+  current_wave: {fileID: 0}
+  wave_index: 0
+  mini_wave_index: 0
+  stageOver: 0
+--- !u!114 &2292767520337696032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623486215928544819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8415440e45d6bdc4c958380a2b057401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  object2_spawn: 0
+  health_pref: {fileID: 1642500337000102306, guid: eb948fcedaece9f4c92c37f318e62460, type: 3}
+  weapon_pref: {fileID: 4705574458260210592, guid: f2463f90255f92d4d952f492756a1ed8, type: 3}
